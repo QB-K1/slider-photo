@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<!-- Ici début de mon entête de document qui est invisible dans la page-->
+	<head>
+	<!-- Ici mon encodage -->
+		<!-- Ici l'appel des bons alphabets et signes-->
+		<meta charset="utf-8"/>
+		<!--Reset la taille du visible en mobile/tablette, évite zooms-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<!--J'appelle les ressources pour les icons-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css"/>
+		<!-- Ici l'appel du fichier CSS reset.css-->
+		<link type="text/css" rel="stylesheet" href="css/reset.css"/>
+		<!-- Ici l'appel du fichier CSS normalize.css-->
+		<link type="text/css" rel="stylesheet" href="css/normalize.css"/>
+		<!-- Ici l'appel du fichier CSS style.css-->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<!-- Ici mon titre qui apparaît uniquement dans l'onglet du navigateur-->
+		<title>Slider photo</title>
+
+	</head>
+	<!-- Fin de l'entête du document-->
+	<!-- Ici début du corps visible dans la page-->
+	<body>
+	<!--Ici début du header-->
+		<header>
+
+			<h1>Sliders, les mondes parallèles ;-)</h1>
+
+			<nav class="toolbar">
+
+            <a id="toolbar-toggle" href="#"><i class="fas fa-arrow-down"></i> Barre d'outils</a>
+
+            <ul class="hide">
+
+                <li><button id="slider-previous" title="Image précédente"><i class="fa fa-backward"></i></button></li>
+
+                <li><button id="slider-toggle" title="Démarrer le carrousel"><i class="fa fa-play"></i></button></li>
+
+                <li><button id="slider-next" title="Image suivante"><i class="fa fa-forward"></i></button></li>
+
+                <li><button id="slider-random" title="Sélectionner une image aléatoire"><i class="fa fa-random"></i></button></li>
+
+            </ul>
+
+        </nav>
+
+		</header>
+		<!--Ici fin du header-->
+		<!--Ici début du conteneur principal-->
+		<main>
+
+			<figure id="slider" class="slider">
+
+            	<img src="images/1.jpg" alt="Photo du carrousel">
+
+            	<!--Ici légendes des images-->
+            	<figcaption></figcaption>
+
+       		 </figure>
+
+		</main>
+		<!-- Ici fin du conteneur principal-->
+
+		<!-- Ici appel du JS utilities-->
+		<script type="text/javascript" src="js/utilities.js"></script>
+		<!-- Ici appel du JS principal-->
+		<script type="text/javascript" src="js/Slider photo.js"></script>
+		
+	</body>
+	<!-- Ici fin du corps visible dans la page-->
+</html>
